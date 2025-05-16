@@ -11,7 +11,7 @@ st.title('Aplikasi Prediksi Kerusakan Mesin')
 col1, col2, col3 = st.columns(3)
 
 with col1 :
-    footfall = st.number_input('input nilai benda yang melewati mesin')
+    footfall = st.number_input('input nilai benda melewati mesin')
 
 with col1 :
     tempMode = st.number_input('input nilai mode suhu mesin')
